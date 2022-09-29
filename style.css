@@ -28,6 +28,12 @@ ul li a{
 }
 
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+
     background-color: rgb(245, 105, 0);
 }
 
@@ -91,7 +97,7 @@ main .container {
     align-items: center;
     justify-content: space-around;
 
-    margin: 40px auto;
+    margin: 90px auto 40px;
 }
 
 .card {
